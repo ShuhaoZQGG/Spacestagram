@@ -30,7 +30,7 @@ function HandleAPI(){
         />
       </div>
       <span>{image[0].explanation}</span>
-      </div>;
+      </div>
     }
     return (
       <div> 

@@ -1,9 +1,9 @@
 import React from "react"
 
-export default class Header extends React.Component{
-  render(){
+function Header(){
     return (
       <h1 className = 'Header'>Welcome to Spacestagram</h1>
     )
   }
-}
+
+export default Header

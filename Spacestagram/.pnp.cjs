@@ -36,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@fortawesome/fontawesome-svg-core", "npm:1.2.36"],
+            ["@fortawesome/free-regular-svg-icons", "npm:5.15.4"],
             ["@fortawesome/free-solid-svg-icons", "npm:5.15.4"],
             ["@fortawesome/react-fontawesome", "virtual:ddccc941eb8b35cd4b898a64351d8bba4ecc85eb47e8f1b36dce7852d6c3635665e0fc5464861f723d175edb2248ce0fa54dfefb9b5e4d2fdaef4b2353c4aa82#npm:0.1.15"],
             ["@testing-library/jest-dom", "npm:5.14.1"],
@@ -4202,6 +4203,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/unplugged/@fortawesome-fontawesome-svg-core-npm-1.2.36-a7e9aa4045/node_modules/@fortawesome/fontawesome-svg-core/",
           "packageDependencies": [
             ["@fortawesome/fontawesome-svg-core", "npm:1.2.36"],
+            ["@fortawesome/fontawesome-common-types", "npm:0.2.36"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@fortawesome/free-regular-svg-icons", [
+        ["npm:5.15.4", {
+          "packageLocation": "./.yarn/unplugged/@fortawesome-free-regular-svg-icons-npm-5.15.4-04f383e3ab/node_modules/@fortawesome/free-regular-svg-icons/",
+          "packageDependencies": [
+            ["@fortawesome/free-regular-svg-icons", "npm:5.15.4"],
             ["@fortawesome/fontawesome-common-types", "npm:0.2.36"]
           ],
           "linkType": "HARD",
@@ -14232,6 +14243,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["my-app", "workspace:."],
             ["@fortawesome/fontawesome-svg-core", "npm:1.2.36"],
+            ["@fortawesome/free-regular-svg-icons", "npm:5.15.4"],
             ["@fortawesome/free-solid-svg-icons", "npm:5.15.4"],
             ["@fortawesome/react-fontawesome", "virtual:ddccc941eb8b35cd4b898a64351d8bba4ecc85eb47e8f1b36dce7852d6c3635665e0fc5464861f723d175edb2248ce0fa54dfefb9b5e4d2fdaef4b2353c4aa82#npm:0.1.15"],
             ["@testing-library/jest-dom", "npm:5.14.1"],

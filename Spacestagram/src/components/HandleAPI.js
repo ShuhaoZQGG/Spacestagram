@@ -26,7 +26,7 @@ function HandleAPI(){
       <div>
         <img
         src = {image[0].url}
-        alt = {image[0].explanation}
+        alt = 'Loading'
         />
       </div>
       <span>{image[0].explanation}</span>
@@ -34,7 +34,7 @@ function HandleAPI(){
     }
     return (
       <div> 
-        {content};  
+        {content}
       </div>
     )
 }

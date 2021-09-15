@@ -1,18 +1,24 @@
-import React from "react";
-//import ReactDOM from 'react-dom'
+import React, {useState} from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHeart as heartSolid }  from '@fortawesome/free-solid-svg-icons' 
-import  { faHeart as heartHollow } from "@fortawesome/free-regular-svg-icons";
-function Like(){
-  return(
-    <div>
-    <p>Like</p>
-    <i className='fas fa-heart' />
-    <FontAwesomeIcon icon = {heartSolid}/>
-    <FontAwesomeIcon icon = {heartHollow}/>
+import { faHeart }  from '@fortawesome/free-solid-svg-icons' 
 
-    </div>
-)
+function Like(){
+  const [color, setColor] = useState('black');
+  
+  if (color === 'black'){
+    return(
+      <div> 
+      <FontAwesomeIcon  icon = {faHeart} size = '5x' transform = 'shrink-5 right-150' color = {color}  onClick = {() => setColor('red')}/>
+      </div>
+    )
+  }
+  else{
+    return(
+      <div> 
+      <FontAwesomeIcon  icon = {faHeart} size = '5x' transform = 'right-150' color = {color} onClick = {() => setColor('black')}/>
+      </div>
+    )
+  }
 }
 
 export default Like

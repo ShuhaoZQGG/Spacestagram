@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import './App.css';
 import HandleAPI from './components/HandleAPI';
 import Layout from './components/Layout';

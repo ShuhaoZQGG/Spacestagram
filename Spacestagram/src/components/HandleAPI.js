@@ -29,7 +29,9 @@ function HandleAPI(){
         alt = 'Loading'
         />
       </div>
-      <span>{image[0].explanation}</span>
+      <div className = 'description'>
+      <p className = 'description-text'>{image[0].explanation}</p>
+      </div>
       </div>
     }
     return (

@@ -22,7 +22,7 @@ function HandleAPI(){
           .then(response => {
           setImage(response.data)
       })
-    }, [url ]);
+    }, [url ]); 
     
     if (image){
       content = <div className = 'search'>
